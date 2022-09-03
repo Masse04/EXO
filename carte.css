@@ -1,0 +1,70 @@
+body
+{
+    background-color: beige;
+}
+h1
+{
+    text-align: center;
+}
+hr
+{
+    width: 30px;
+    margin-bottom: 20px;
+    height: 3px;
+    border: none;
+    background-color: black;
+
+}
+#conteneur
+{
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
+    width: 100%;
+    
+}
+.tai
+{
+    width: 30%;
+    margin-left: 30px;
+    border: 3px;
+    background-color: white;
+    text-align: left;
+    height: 550px;
+}
+img
+{
+    width: 100%;
+}
+.par
+{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(133, 131, 131);
+}
+.tai div
+{
+    padding: 10px;
+}
+h3
+{
+    color: rgb(1, 148, 153);
+}
+#bouton
+{
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-color: rgb(1, 148, 153);;
+    color:rgb(1, 148, 153);;
+}
+div button
+{
+    border: none;
+    width: 70px;
+    height: 30px;
+}
+i
+{
+    
+}
