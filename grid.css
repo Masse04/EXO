@@ -6,7 +6,8 @@ main
     grid-gap: 10px;
     grid-template-areas: "first second second " 
                           "first third fourth"
-                          "fifth fifth sixth";
+                          "fifth fifth fourth"
+                          "sixth seventh seventh";
     justify-content: center;
 }
 div:nth-child(1)
@@ -45,3 +46,25 @@ div:nth-child(4)
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+div:nth-child(5)
+{
+    grid-area: second;
+    background-image: url(maldive.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+div:nth-child(6)
+{
+    grid-area: third;
+    background-image: url(maldive2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+div:nth-child(7)
+{
+    grid-area: seventh;
+    background-image: url(tai.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
