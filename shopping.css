@@ -1,0 +1,61 @@
+.container
+{
+    display: flex;
+}
+header
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+header input
+{
+    margin-left: 300px;
+    height: 25px;
+}
+header h1
+{
+    
+}
+section
+{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-auto-rows: 300px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    row-gap: 10px;
+    margin-left: 50px;
+}
+.t-shirt
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.piece
+{
+    margin-left: 150px;
+}
+.piece input
+{
+    width: 5px;
+}
+.prix
+{
+    margin-left: 150px;
+}
+.Shopping
+{
+
+}
+.Summary
+{
+    background-color: rgb(248, 198, 122);
+    width: 30%;
+
+}
