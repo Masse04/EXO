@@ -1,15 +1,26 @@
 var plus = document.querySelectorAll(".plus")
 var moins = document.querySelectorAll(".moins")
-var count = document.querySelectorAll(".texte")
-plus.addEventListener("click",function(){
-    var num = parseInt(count.textContent)
-    num = num + 1
-    count.textContent = num
 
-})
-moins.addEventListener("click",function(){
-    var num = count.value
-    num = num - 1
-    count.value = num
 
-})
+for(var i = 0; i < plus.length; i++){
+    plus[i].addEventListener("click", function(){
+        var par = this.parentNode
+        var text = par.querySelector(".texte")
+        var count = parseInt(text.value)
+        count += 1
+        text.value = count
+        
+    })
+}
+for(var i = 0; i < plus.length; i++){
+    moins[i].addEventListener("click", function(){
+        var par = this.parentNode
+        var text = par.querySelector(".texte")
+        var count = parseInt(text.value)
+        count -= 1
+        text.value = count
+        
+    })
+}
+
+
