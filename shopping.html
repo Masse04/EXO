@@ -9,90 +9,99 @@
 </head>
 <body>
     <div class="container">
-        <div class="Shopping">
+        <main class="Shopping">
             <header>
                 <h1>Shopping Cart</h1>
                 <input type="text" placeholder="filter by title">
             </header>
             <hr>
-            <main>
-                <section>
-                    <article class="t-shirt">
-                        <img src="t-shirt-wh.jpg" alt="photo d'un t-shirt blanc">
-                        <div>
-                            <h6>Shirt</h6>
-                            <p>Cotton T-shirt</p>
-                        </div>
-                    </article>
-                    <article class="piece">
-                        <input type="button" class="moins" value="-">
-                        <input type="text" placeholder="1" class="texte" value="1">
-                        <input type="button" class="plus" value="+">
-                    </article>
-                    <article class="prix">
-                        <p>€ 44.00</p>
-                    </article>
-                    <article class="t-shirt">
-                        <img src="t-shirt-bl.jpg" alt="photo d'un t-shirt noir">
-                        <div>
-                            <h6>Shirt</h6>
-                            <p>Cotton T-shirt</p>
-                        </div>
-                    </article>
-                    <article class="piece">
-                        <input type="button" class="moins" value="-">
-                        <input type="text" placeholder="1" class="texte" value="1">
-                        <input type="button" class="plus" value="+">
-                    </article>
-                    <article class="prix">
-                        <p>€ 44.00</p>
-                    </article>
-                    <article class="t-shirt">
-                        <img src="t-shirt-red.jpg" alt="photo d'un t-shirt rouge">
-                        <div>
-                            <h6>Shirt</h6>
-                            <p>Cotton T-shirt</p>
-                        </div>
-                    </article>
-                    <article class="piece">
-                        <input type="button" class="moins" value="-">
-                        <input type="text" placeholder="1" class="texte" value="1">
-                        <input type="button" class="plus" value="+">
-                    </article>
-                    <article class="prix">
-                        <p>€ 44.00</p>
-                    </article>
-                </section>
-            </main>
-        </div>
-        <div class="Summary">
-            <header>
-                <h1>Summary</h1>
-            </header>
+            <div class="shirt">
+                        <article class="t-shirt">
+                            <img src="t-shirt-wh.jpg" alt="photo d'un t-shirt blanc">
+                            <div>
+                                <h6>Shirt</h6>
+                                <p>Cotton T-shirt</p>
+                            </div>
+                        </article>
+                        <article class="piece">
+                            <input type="button" class="moins" value="-">
+                            <input type="text" placeholder="1" class="texte" value="1">
+                            <input type="button" class="plus" value="+">
+                        </article>
+                        <article class="unite">
+                            <p>€</p>
+                            <p class="prix">44.00</p>
+                        </article>
+            </div>
+            <hr>
+            <div class="shirt">
+                <article class="t-shirt">
+                    <img src="t-shirt-bl.jpg" alt="photo d'un t-shirt noir">
+                    <div>
+                        <h6>Shirt</h6>
+                        <p>Cotton T-shirt</p>
+                    </div>
+                </article>
+                <article class="piece">
+                    <input type="button" class="moins" value="-">
+                    <input type="text" placeholder="1" class="texte" value="1">
+                    <input type="button" class="plus" value="+">
+                </article>
+                <article class="unite">
+                    <p>€</p>
+                    <p class="prix">44.00</p>
+                </article>
+            </div>
+            <hr>
+            <div class="shirt">
+                <article class="t-shirt">
+                    <img src="t-shirt-red.jpg" alt="photo d'un t-shirt rouge">
+                    <div>
+                        <h6>Shirt</h6>
+                        <p>Cotton T-shirt</p>
+                    </div>
+                </article>
+                <article class="piece">
+                    <input type="button" class="moins" value="-">
+                    <input type="text" placeholder="1" class="texte" value="1">
+                    <input type="button" class="plus" value="+">
+                </article>
+                <article class="unite">
+                    <p>€</p>
+                    <p class="prix">44.00</p>
+                </article>
+            </div>
+            <hr>
+            <p>Back to shop</p>
+        </main>
+        <main class="Summary">
+            <h1 class="sum">Summary</h1>
             <hr>
             <article class="items">
-                <h1>ITEMS 3</h1>
-                <p>€ 132.00</p>
+                <h2>ITEMS 3</h2>
+                <aside class="horsreduc">
+                    <p>€</p>
+                    <p class="hr">132.00</p>
+                </aside>
             </article>
-            <article>
-                <h1>SHIPPING</h1>
-                <form action="">
-                    <input type="text" placeholder="Standard-Delivery-€5.00">
-                </form>
+            <article class="shipping">
+                <h2>SHIPPING</h2>
+                <input type="text" placeholder="Standard-Delivery-€5.00" value="5">
             </article>
-            <article>
-                <h1>GIVE CODE</h1>
-                <form action="">
-                    <input type="text" placeholder="Enter your code">
-                </form>
+            <article class="code">
+                <h2>GIVE CODE</h2>
+                <input type="text" placeholder="Enter your code">
             </article>
             <hr>
-            <article>
-                <h1>TOTAL PRICE</h1>
-                <p>€ 137.00</p>
+            <article class="total">
+                <h2>TOTAL PRICE</h2>
+                <aside class="ptotal">
+                    <p>€</p>
+                    <p class="pttc">137.00</p>
+                </aside>
             </article>
             <button>REGISTER</button>
-        </div>
+        </main>
     </div>
     <script src="shopping.js"></script>
 </body>

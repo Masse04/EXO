@@ -1,61 +1,107 @@
 .container
 {
     display: flex;
+    justify-content: space-between;
+
 }
-header
+.Shopping
+{
+    width: 70%;
+}
+.Summary
+{
+    width: 30%;
+    background-color: bisque;
+}
+.shirt,header
 {
     display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-header input
-{
-    margin-left: 300px;
-    height: 25px;
-}
-header h1
-{
-    
-}
-section
-{
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-auto-rows: 300px;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    row-gap: 10px;
-    margin-left: 50px;
+    justify-content: space-between;
+    align-items: center;   
 }
 .t-shirt
 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    
 }
-.piece
+.unite,.horsreduc,.ptotal
 {
-    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    width: 55px;
 }
-.piece input
+.sum
 {
-    width: 5px;
-}
-.prix
-{
-    margin-left: 150px;
-}
-.Shopping
-{
+    text-align: center;
+    padding: 4px 0 ;
 
 }
-.Summary
+.items
 {
-    background-color: rgb(248, 198, 122);
-    width: 30%;
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+}
+.shipping
+{
+    width: 300px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.code
+{
+    width: 300px;
+    margin: auto;
+    padding-bottom: 50px
+}
+.total
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+button
+{
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    height: 40px;
+    margin: 55px ;
+    border-radius: 5px;
+}
+.Summary hr
+{
+    width: 80%;
+}
+.Summary input
+{
+    height: 30px;
+    background-color: bisque;
+    width: 300px;
+    border-radius: 5px;
+}
+.unite
+{
+    padding-right: 20px;
+}
+header
+{
+    padding: 0 20px;
+}
+header input
+{
+    width: 100px;
+    border-radius: 5px;
+}
+.shirt input
+{
+    width: 20px;
+    border-radius: 5px;
+}
+.Shopping hr
+{
+    width: 95%;
 }
