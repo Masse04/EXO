@@ -14,6 +14,7 @@ plus.addEventListener("click",function(){
     var num = parseInt(count.textContent)
     num = num + 1
     count.textContent = num
+    
 
 })
 moins.addEventListener("click",function(){
