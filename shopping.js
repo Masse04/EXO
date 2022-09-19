@@ -14,15 +14,16 @@ for(var i = 0; i < plus.length; i++)
         var total = par.parentNode
         var unite = total.querySelector(".unite .prix")
         var prix = parseInt(unite.textContent)
-        prix *= count
         var main = total.parentNode.parentNode
         var hr = main.querySelector(".Summary .items .horsreduc .hr")   
+        var ps = 0
+        ps = prix * count
+        hr.textContent = ps
+        // var ship = main.querySelector(".Summary .shipping input")
 
-        var ship = main.querySelector(".Summary .shipping input")
+        // var code = main.querySelector(".Summary .code input")
 
-        var code = main.querySelector(".Summary .code input")
-
-        var ptotal = main.querySelector(".Summary .total .ptotal")
+        // var ptotal = main.querySelector(".Summary .total .ptotal")
     }
     )
 }
